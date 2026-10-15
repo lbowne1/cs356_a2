@@ -1,0 +1,21 @@
+# Rust build output, at any depth (root, examples/*, viewer)
+target/
+
+# Simulator run output
+*.simlog
+*.log
+/*.json
+load-x*.json
+card*.json
+
+# Course handout
+CS356-A2-Handout-*.pdf
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
